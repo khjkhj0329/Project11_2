@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Project11_2</string>
+    <string name="title01">보스 베이비2</string>
+    <string name="title02">알라딘</string>
+    <string name="title03">엔드게임</string>
+    <string name="title04">블랙 위도우</string>
+    <string name="title05">걸캅스</string>
+    <string name="title06">장난스런 키스</string>
+    <string name="title07">키싱부스</string>
+    <string name="title08">모아나</string>
+    <string name="title09">청년경찰</string>
+    <string name="title010">콰이어트 플레이스2</string>
 </resources>
