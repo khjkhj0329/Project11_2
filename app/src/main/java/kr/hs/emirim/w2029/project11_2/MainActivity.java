@@ -3,6 +3,7 @@ package kr.hs.emirim.w2029.project11_2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Gallery;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +11,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("갤러리 영화 포스터");
+
+        Gallery gallery = findViewById(R.id.gallery1);
+        GalleryAdapter adapter = new GalleryAdapter(this);
+        gallery.setAdapter(adapter);
     }
 }
